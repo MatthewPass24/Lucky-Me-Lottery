@@ -1,10 +1,13 @@
 body {
     text-align: center;
-    background-color: rgb(196, 198, 219);
+    background-color: rgb(184, 187, 224);
 }
 .names {
     padding: 3em;
 }
 .winner {
     padding: 3em;
+}
+.choose {
+    margin-top: 2em;
 }
