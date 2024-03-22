@@ -32,20 +32,20 @@
             <div class="row justify-content-center">
               <div class="col-10">
                     <div class="input-group mb-3">
-                        <input type="text" id="nameInputBox" class="form-control" placeholder="Recipient's name" aria-label="Recipient's name" aria-describedby="button-addon2">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Add Name</button>
+                        <input type="text" id="nameInput" class="form-control" placeholder="Recipient's name" aria-label="Recipient's name" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="addNameBtn">Add Name</button>
                       </div>
               </div>
             </div>
             <div class="row">
-                <div id="listNameDisplay" class="col-lg-6 col-12 border d-100 names">
-                    <h3>List of Names:</h3>
+                <div class="col-lg-6 col-12 border d-100 names">
+                    <ul id="ListName" class="list-group"></ul>
                 </div>
-                <div id="selectedNameDisplay" class="col-lg-6 col-12 border d-100 winner">
+                <div id="randomName" class="col-lg-6 col-12 border d-100 winner">
                     <h3>Winner:</h3>
                 </div>
             </div>
-            <button class="btn btn-outline-secondary choose" type="button" id="button-addon2">Select a Name</button>
+            <button class="btn btn-outline-secondary choose" type="button" id="pickRandomBtn">Select a Name</button>
         </div>
         </main>
         <footer>
@@ -63,5 +63,6 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+        <script src="script.js"></script>
     </body>
 </html>
