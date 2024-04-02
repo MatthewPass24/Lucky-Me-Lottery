@@ -5,6 +5,9 @@ function addName() {
     const nameInput = document.getElementById('nameInput') // storing name input element as a variable
     const name = nameInput.value.trim() //get the TRIMMED value of the input box and store in a var
     
+    if (name === null || name === '') [
+        name = alert('Please enter a name')]
+    
     namesArray.push(name) //add the name to the end of the array
     displayNames() //call the displayNames function to update the list
     
@@ -53,4 +56,12 @@ document.getElementById('addNameBtn').addEventListener('click', addName)
 //Event listener for the button click to select and siplay a rndm name
 document.getElementById('pickRandomBtn').addEventListener('click', pickRandomName)
 
+document.addEventListener('keypress', (event)=>{
+    let keyCode = event.key ? event.key : ''
+
+    if(event.key === 'Enter') {
+        addNameBtn.click();
+        
+    }
+}) 
 
