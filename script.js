@@ -56,12 +56,13 @@ document.getElementById('addNameBtn').addEventListener('click', addName)
 //Event listener for the button click to select and siplay a rndm name
 document.getElementById('pickRandomBtn').addEventListener('click', pickRandomName)
 
+//Event Listener to add a name using the enter button
 document.addEventListener('keypress', (event)=>{
     let keyCode = event.key ? event.key : ''
 
     if(event.key === 'Enter') {
         addNameBtn.click();
-        
+
     }
 }) 
 
