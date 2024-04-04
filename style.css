@@ -1,10 +1,22 @@
 body {
     text-align: center;
-    background-color: rgb(173, 176, 223);
+    background-color: rgb(163, 219, 196);
+}
+.display {
+    background-color: rgba(7, 196, 155, 0.411);
+    margin: 0;
+    padding: 0.75em;
+}
+.instructions {
+    margin: 1em;
 }
 .names {
     padding: 3em;
     background-color: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
 }
 .winner {
     padding: 3em;
@@ -16,7 +28,11 @@ body {
 .choose {
     margin-top: 2em;
 }
+.reset {
+    margin-top: 2em;
+}
 h1{
+    color: rgb(12, 134, 93);
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
