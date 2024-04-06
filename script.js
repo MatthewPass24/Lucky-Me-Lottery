@@ -46,6 +46,12 @@ function pickRandomName() {
     namesArray.splice(randomNumber, 1)
 
     displayNames();
+        
+    // confetti function
+    confetti({
+        particleCount: 100,
+        spread: 160
+      });
 
 }
 

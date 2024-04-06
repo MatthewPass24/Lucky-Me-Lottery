@@ -1,9 +1,9 @@
 body {
     text-align: center;
-    background-color: rgb(163, 219, 196);
+    background-color: rgb(153, 221, 184);
 }
 .display {
-    background-color: rgba(7, 196, 155, 0.411);
+    background-color: rgba(6, 199, 135, 0.411);
     margin: 0;
     padding: 0.75em;
 }
@@ -49,3 +49,55 @@ h3 {
         font-style: normal;
         font-size: 5em;
 }
+.form-control {
+    box-shadow: 0 5px #57cc99;
+}
+.css-button-3d--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: rgb(12, 134, 93);
+    box-shadow: 0 5px #1b5039;
+  }
+  .css-button-3d--green:hover {
+    box-shadow: 0 5px #1b5039;
+    top: 1px;
+  }
+  .css-button-3d--green:active {
+    box-shadow: 0 5px #1b5039;
+    top: 5px;
+  }
+  .css-button-3d--green1 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: rgb(12, 134, 93);
+    box-shadow: 0 5px #1b5039;
+  }
+  .css-button-3d--green:hover1 {
+    box-shadow: 0 5px #1b5039;
+  }
+  .css-button-3d--green:active1 {
+    box-shadow: 0 5px #1b5039;
+  }
+  .pick {
+    margin-bottom: 2em;
+  }
