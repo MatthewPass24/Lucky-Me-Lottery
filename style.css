@@ -17,6 +17,10 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
+    background-color: #ffffff9d;
+    border: 5px solid #57cc99;
+    min-height: 300px;
+    margin: 0.5em;
 }
 .winner {
     padding: 3em;
@@ -24,6 +28,10 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
+    background-color: #ffffff9d;
+    border: 5px solid #57cc99;
+    min-height: 300px;
+    margin: 0.5em;
 }
 .choose {
     margin-top: 2em;
@@ -100,4 +108,9 @@ h3 {
   }
   .pick {
     margin-bottom: 2em;
+  }
+  #nameInput {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
